@@ -12,4 +12,5 @@ O script "telegram.py" é para rodar o bot no Telegram.
 Para que o bot funcione no Instagram, altere o arquivo e coloque o arroba da conta que deseja usar e a senha.
 Para que o bot funcione no Telegram, altere o arquivo e coloque o Token de bot no Telegram.
 
+O Instagram limita bots, por isso o script é limitado.
   
