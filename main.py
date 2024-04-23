@@ -45,5 +45,5 @@ class Bot:
             self.pass_time(30)
         self.cl.logout()
 
-iara = Bot("iaramarkov", "Instagram@I.a&v1d4!", json.loads(open("phrases.json", "rb").read().decode()), json.loads(open("database.json", "rb").read().decode()))
+iara = Bot("arroba do instagram", "senha do instagram", json.loads(open("phrases.json", "rb").read().decode()), json.loads(open("database.json", "rb").read().decode()))
 iara.direct_message("Imagens")
