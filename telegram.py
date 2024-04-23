@@ -5,7 +5,7 @@ import json, random
 ai = chatbot_module.Chatbot()
 ai.train_data(json.loads(open("phrases.json", "rb").read().decode()), json.loads(open("database.json", "rb").read().decode()))
 
-bot = telebot.TeleBot("7172304282:AAFRKM4fJzNe4HihjQxBcnUBxXjIwmjxRQk")
+bot = telebot.TeleBot("adicione seu token aqui")
 
 @bot.message_handler(commands=["start"])
 def send_welcome(message):
